@@ -1,0 +1,61 @@
+.devices {
+  &__header-left {
+    flex: 1;
+  }
+  &__header-tabs {
+
+  }
+  &__header-button {
+    &_active {
+      background: #fff;
+    }
+  }
+  &__legend {
+    display: flex;
+  }
+  &__legend-item {
+    display: flex;
+    align-items: center;
+    margin-right: 25px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  &__legend-item-image {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  &__content {
+    padding: 20px;
+  }
+  &__map {
+    width: 100%;
+    height: 400px;
+  }
+  &__sensors {
+    display: flex;
+  }
+  &__widget {
+    display: flex;
+    padding: 15px;
+    margin-right: 20px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, .2)
+  }
+  &__widget-icon {
+    margin-right: 10px;
+  }
+}
+
+.MuiIconButton-root.active {
+  background-color: rgba(255, 255, 255, .2);
+}
+
+.MuiFormControl-root.devices__select {
+  .MuiSelect-root {
+    color: #fff;
+  }
+  .MuiSvgIcon-root {
+    color: #fff;
+  }
+}
